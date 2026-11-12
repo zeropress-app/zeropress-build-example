@@ -14,5 +14,5 @@ A small static site, with its theme, content, and generated output in one reposi
 To rebuild, use Node.js 22.22.0 or later and run from the repository root:
 
 ```sh
-./build.sh
+npx @zeropress/build ./theme --data ./zeropress-preview-data.json --out ./dist --empty-out-dir
 ```
