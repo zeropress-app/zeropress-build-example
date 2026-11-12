@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en-US" data-zp-date-style="medium" data-zp-time-style="none">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Typography - ZeroPress Build Example</title>
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="/assets/style.9cb0ef0c.css">
+    <meta name="description" content="A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables.">
+<link rel="canonical" href="https://build.demo.zeropress.app/posts/typography/">
+<link rel="alternate" type="application/rss+xml" title="ZeroPress Build Example Feed" href="/feed.xml">
+<meta property="og:title" content="Typography - ZeroPress Build Example">
+<meta property="og:description" content="A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://build.demo.zeropress.app/posts/typography/">
+<meta property="og:site_name" content="ZeroPress Build Example">
+<meta property="article:published_time" content="2026-05-10T09:00:00Z">
+<meta property="article:modified_time" content="2026-05-10T09:00:00Z">
+
+    <link rel="icon" href="/favicon.png" type="image/png">
+  <meta name="generator" content="ZeroPress">
+</head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+  <div class="site-container site-header__inner">
+    <a class="site-brand" href="/">ZeroPress Build Example<span aria-hidden="true">.</span></a>
+    <div class="site-header__navigation">
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul><li><a href="/" target="_self">Posts</a></li><li><a href="/about/" target="_self">About</a></li><li><a href="/archive/" target="_self">Archive</a></li></ul>
+      </nav>
+      
+        <button class="search-open" type="button" data-search-open aria-haspopup="dialog" aria-controls="site-search" disabled>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <span>Search</span>
+        </button>
+      
+    </div>
+  </div>
+</header>
+
+    <main id="content" class="site-main">
+      <article class="site-container post">
+  <a class="back-link" href="/">← All posts</a>
+
+  <header class="post__header">
+    <h1 class="post__title">Typography</h1>
+    <div class="post__meta">
+      <span>Editor</span><span aria-hidden="true">·</span>
+      <time datetime="2026-05-10T09:00:00Z" title="2026-05-10T09:00:00Z" data-zp-local-date-time>May 10, 2026</time>
+      <span aria-hidden="true">·</span><span>3 min read</span>
+    </div>
+  </header>
+
+  <div class="prose" data-pagefind-body><p><em>A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables.</em></p>
+<p>Typography is the quiet architecture of reading. When it works, you don’t notice it — you just keep going. This post exercises every Markdown affordance the minimal theme styles, so you can audit the shape of the page in one place.</p>
+<h2 id="images-and-public-files">Images and public files</h2>
+<p>A diagram can explain a process at a glance. This one shows how ZeroPress combines a theme and Preview Data to produce a static site.</p>
+<picture>
+  <source media="(max-width: 640px)" srcset="/diagrams/build-flow-compact.svg" width="360" height="374" />
+  <img class="aligncenter" src="/diagrams/build-flow.svg" width="720" height="224" alt="A ZeroPress theme and Preview Data feed @zeropress/build, which produces static HTML, assets, and public files." />
+</picture>
+<p>These SVG files live in <code>public/diagrams/</code> and are copied to <code>dist/diagrams/</code> during the build. The browser uses the compact layout on screens up to 640 pixels wide. Both versions follow the system’s light or dark color preference, just like this theme.</p>
+<h2 id="headings-establish-hierarchy">Headings establish hierarchy</h2>
+<p>A page without hierarchy is a page without a map. Headings tell the eye where to land, and where it can safely skip ahead.</p>
+<h3 id="a-smaller-heading">A smaller heading</h3>
+<p>Three levels is usually enough. Anything deeper and you’re probably writing an outline, not an essay.</p>
+<h4 id="and-a-fourth-used-sparingly">And a fourth, used sparingly</h4>
+<p>Reserved for the rare moment when you really need a fourth tier of nesting.</p>
+<h2 id="inline-rhythm">Inline rhythm</h2>
+<p>Inline elements should feel native to the paragraph: a link to <a href="https://zeropress.dev/">ZeroPress</a>, emphasis with <em>italics</em>, strong emphasis with <strong>bold text</strong>, inline code like <code>useState</code>, a keyboard shortcut like ⌘ + K, and a short correction with <s>deleted text</s>.</p>
+<blockquote>
+<p>Typography is what language looks like.</p>
+<p>— Ellen Lupton</p>
+</blockquote>
+<h2 id="lists">Lists</h2>
+<p>Three things make a list useful:</p>
+<ul>
+<li>Items that are genuinely parallel.</li>
+<li>Short phrases, not full paragraphs.</li>
+<li>A reason to be a list at all.</li>
+</ul>
+<p>A small checklist renders as disabled task inputs:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" checked disabled aria-label="Completed task" /> Draft the piece.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" checked disabled aria-label="Completed task" /> Revise the rhythm.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled aria-label="Incomplete task" /> Publish when it is ready.</li>
+</ul>
+<p>Ordered lists earn their numbers when sequence matters:</p>
+<ol>
+<li>Write the draft.</li>
+<li>Cut a third of it.</li>
+<li>Read it out loud.</li>
+<li>Cut a third again.</li>
+</ol>
+<h2 id="tables">Tables</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H2</td>
+<td>Major sections</td>
+</tr>
+<tr>
+<td>H3</td>
+<td>Supporting sections</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Long-form reading</td>
+</tr>
+<tr>
+<td>Code</td>
+<td>Technical notes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="alerts">Alerts</h2>
+<aside class="zp-alert zp-alert--note" role="note">
+<p class="zp-alert__title">Note</p><p>Notes carry neutral context that helps the reader keep moving.</p>
+</aside>
+<aside class="zp-alert zp-alert--tip" role="note">
+<p class="zp-alert__title">Tip</p><p>Tips suggest a practical next step.</p>
+</aside>
+<aside class="zp-alert zp-alert--important" role="note">
+<p class="zp-alert__title">Important</p><p>Important blocks point at details that should not be missed.</p>
+</aside>
+<aside class="zp-alert zp-alert--warning" role="note">
+<p class="zp-alert__title">Warning</p><p>Warnings call out risk before the reader acts.</p>
+</aside>
+<aside class="zp-alert zp-alert--caution" role="note">
+<p class="zp-alert__title">Caution</p><p>Cautions are for the sharp edges of a workflow.</p>
+</aside>
+<h2 id="code-fences">Code fences</h2>
+<p>Even a writing-focused blog occasionally needs a snippet:</p>
+<pre><code class="language-ts"><span class="hljs-keyword">function</span> <span class="hljs-title function_">greet</span>(<span class="hljs-params"><span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span></span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-string">`Hello, <span class="hljs-subst">${name}</span>.`</span>;
+}
+
+<span class="hljs-title function_">greet</span>(<span class="hljs-string">"reader"</span>);
+</code></pre>
+<hr />
+<h2 id="rhythm-is-everything">Rhythm is everything</h2>
+<p>Spacing is typography too. The vertical rhythm between paragraphs, the air around a heading, the pause of a horizontal rule — these are the punctuation of the page. Get those right, and the words almost read themselves.</p>
+</div>
+
+  
+    <div class="post__tags">
+      <a href="/tags/typography/">#Typography</a><a href="/tags/design/">#Design</a>
+    </div>
+  
+
+  
+    <nav class="post-nav" aria-label="Adjacent posts">
+      <span></span>
+      <a class="post-nav__link post-nav__link--next" href="/posts/on-writing-less/">
+        <span class="post-nav__label">Next →</span>
+        <strong>On writing less</strong>
+      </a>
+    </nav>
+  
+
+  
+</article>
+
+    </main>
+    <footer class="site-footer">
+  <div class="site-container site-footer__inner">
+    <div class="site-footer__copy">
+      
+        <p>ZeroPress Build Example</p>
+      
+      
+        <p class="site-footer__attribution">Published with <a href="https://zeropress.app" target="_blank" rel="noreferrer noopener">ZeroPress</a></p>
+      
+    </div>
+    <nav class="site-footer__nav" aria-label="Footer navigation">
+      <ul><li><a href="/about/" target="_self">About</a></li><li><a href="/archive/" target="_self">Archive</a></li></ul>
+    </nav>
+  </div>
+  <script defer src="/assets/theme.34a519f4.js"></script>
+  
+    <dialog id="site-search" class="search-dialog" data-search-dialog aria-labelledby="site-search-title">
+  <div class="search-dialog__header">
+    <h2 id="site-search-title">Search</h2>
+    <button class="search-close" type="button" data-search-close aria-label="Close search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="search-dialog__body">
+    <div role="search">
+      <label class="sr-only" for="site-search-input">Search posts and pages</label>
+      <input id="site-search-input" class="search-input" data-search-input type="search" placeholder="Search posts and pages" autocomplete="off" spellcheck="false" aria-controls="site-search-results" autofocus>
+    </div>
+    <p class="search-status" data-search-status role="status">Type to search.</p>
+    <button class="search-retry" type="button" data-search-retry hidden>Reload page</button>
+    <ul id="site-search-results" class="search-results" data-search-results aria-label="Search results"></ul>
+  </div>
+</dialog>
+
+    <script defer src="/assets/search.8f878c22.js"></script>
+  
+  
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="374" viewBox="0 0 360 374" role="img" aria-labelledby="title description">
+  <title id="title">How ZeroPress builds a static site</title>
+  <desc id="description">A ZeroPress theme and Preview Data are inputs to @zeropress/build. The output is HTML, assets, and any files from the public directory.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .connector { stroke: #bbaa9b; }
+      .section-label { fill: #bbaa9b; }
+      .input { fill: #302b28; stroke: #74685f; }
+      .builder { fill: #44312b; stroke: #c48b70; }
+      .output { fill: #2b352c; stroke: #82977d; }
+      .heading { fill: #f0e9df; }
+      .build-label { fill: #edb69c; }
+      .detail { fill: #d1c5bb; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path class="connector" d="M1 1 8 5 1 9" fill="none" stroke="#968474" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" text-anchor="middle">
+    <g class="connector" fill="none" stroke="#968474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M92 88V104Q92 112 100 112H260Q268 112 268 104V88" />
+      <path d="M180 112V146" marker-end="url(#arrow)" />
+      <path d="M180 234V260" marker-end="url(#arrow)" />
+    </g>
+    <g class="input" fill="#fbf8f3" stroke="#b9a99c" stroke-width="1.5">
+      <rect x="10" y="12" width="164" height="76" rx="12" />
+      <rect x="186" y="12" width="164" height="76" rx="12" />
+    </g>
+    <rect class="builder" x="62" y="156" width="236" height="78" rx="12" fill="#f6e5dc" stroke="#b47759" stroke-width="1.5" />
+    <rect class="output" x="40" y="270" width="280" height="90" rx="12" fill="#eef3ec" stroke="#8c9b86" stroke-width="1.5" />
+    <g font-size="17" font-weight="600" class="heading" fill="#382f2a">
+      <text x="92" y="44">ZeroPress theme</text>
+      <text x="268" y="44">Preview Data</text>
+    </g>
+    <g font-size="13" class="detail" fill="#66574d">
+      <text x="92" y="67">Design and layout</text>
+      <text x="268" y="67">Content and settings</text>
+    </g>
+    <text x="180" y="190" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="20" font-weight="600" class="build-label" fill="#6f402c">@zeropress/build</text>
+    <text x="180" y="214" font-size="15" class="detail" fill="#66574d">Render your site</text>
+    <text x="180" y="307" font-size="22" font-weight="600" class="heading" fill="#382f2a">Static output</text>
+    <text x="180" y="334" font-size="15" class="detail" fill="#66574d">HTML + assets + public files</text>
+  </g>
+</svg>

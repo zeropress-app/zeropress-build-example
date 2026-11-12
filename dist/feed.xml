@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZeroPress Build Example</title>
+    <link>https://build.demo.zeropress.app/</link>
+    <description>A small static site built from a theme and Preview Data.</description>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 15 Jul 2026 09:00:00 GMT</lastBuildDate>
+    <atom:link href="https://build.demo.zeropress.app/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Typography</title>
+      <link>https://build.demo.zeropress.app/posts/typography/</link>
+      <guid>https://build.demo.zeropress.app/posts/typography/</guid>
+      <pubDate>Sun, 10 May 2026 09:00:00 GMT</pubDate>
+      <description>A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables.</description>
+    </item>
+    <item>
+      <title>On writing less</title>
+      <link>https://build.demo.zeropress.app/posts/on-writing-less/</link>
+      <guid>https://build.demo.zeropress.app/posts/on-writing-less/</guid>
+      <pubDate>Thu, 07 May 2026 09:00:00 GMT</pubDate>
+      <description>The shortest essays often take the longest to write. A note on restraint, revision, and the quiet power of leaving things out.</description>
+    </item>
+    <item>
+      <title>Tools I use</title>
+      <link>https://build.demo.zeropress.app/posts/tools-i-use/</link>
+      <guid>https://build.demo.zeropress.app/posts/tools-i-use/</guid>
+      <pubDate>Sun, 03 May 2026 09:00:00 GMT</pubDate>
+      <description>After years of trying every new app, I keep coming back to the same handful.</description>
+    </item>
+    <item>
+      <title>What a morning is for</title>
+      <link>https://build.demo.zeropress.app/posts/what-a-morning-is-for/</link>
+      <guid>https://build.demo.zeropress.app/posts/what-a-morning-is-for/</guid>
+      <pubDate>Tue, 28 Apr 2026 09:00:00 GMT</pubDate>
+      <description>The first hour of the day is the easiest one to give away, and the hardest one to get back.</description>
+    </item>
+  </channel>
+</rss>

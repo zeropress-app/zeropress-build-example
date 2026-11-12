@@ -1,0 +1,101 @@
+[
+  {
+    "id": "post:typography",
+    "type": "post",
+    "title": "Typography",
+    "url": "/posts/typography/",
+    "excerpt": "A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables.",
+    "headings": [
+      "Images and public files",
+      "Headings establish hierarchy",
+      "A smaller heading",
+      "And a fourth, used sparingly",
+      "Inline rhythm",
+      "Lists",
+      "Tables",
+      "Alerts",
+      "Code fences",
+      "Rhythm is everything"
+    ],
+    "categories": [
+      "Notes"
+    ],
+    "tags": [
+      "Typography",
+      "Design"
+    ],
+    "published_at_iso": "2026-05-10T09:00:00Z",
+    "updated_at_iso": "2026-05-10T09:00:00Z",
+    "content_text": "A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables. Typography is the quiet architecture of reading. When it works, you don’t notice it — you just keep going. This post exercises every Markdown affordance the minimal theme styles, so you can audit the shape of the page in one place. Images and public files A diagram can explain a process at a glance. This one shows how ZeroPress combines a theme and Preview Data to produce a static site. These SVG files live in public/diagrams/ and are copied to dist/diagrams/ during the build. The browser uses the compact layout on screens up to 640 pixels wide. Both versions follow the system’s light or dark color preference, just like this theme. Headings establish hierarchy A page without hierarchy is a page without a map. Headings tell the eye where to land, and where it can safely skip ahead. A smaller heading Three levels is usually enough. Anything deeper and you’re probably writing an outline, not an essay. And a fourth, used sparingly Reserved for the rare moment when you really need a fourth tier of nesting. Inline rhythm Inline elements should feel native to the paragraph: a link to ZeroPress, emphasis with italics, strong emphasis with bold text, inline code like useState, a keyboard shortcut like ⌘ + K, and a short correction with deleted text. Typography is what language looks like. — Ellen Lupton Lists Three things make a list useful: Items that are genuinely parallel. Short phrases, not full paragraphs. A reason to be a list at all. A small checklist renders as disabled task inputs: Draft the piece. Revise the rhythm. Publish when it is ready. Ordered lists earn their numbers when sequence matters: Write the draft. Cut a third of it. Read it out loud. Cut a third again. Tables Element Use H2 Major sections H3 Supporting sections Paragraph Long-form reading Code Technical notes Alerts Note Notes carry neutral context that helps the reader keep moving. Tip Tips suggest a practical next step. Important Important blocks point at details that should not be missed. Warning Warnings call out risk before the reader acts. Caution Cautions are for the sharp edges of a workflow. Code fences Even a writing-focused blog occasionally needs a snippet: function greet(name: string) { return `Hello, ${name}.`; } greet(\"reader\"); Rhythm is everything Spacing is typography too. The vertical rhythm between paragraphs, the air around a heading, the pause of a horizontal rule — these are the punctuation of the page. Get those right, and the words almost read themselves."
+  },
+  {
+    "id": "post:on-writing-less",
+    "type": "post",
+    "title": "On writing less",
+    "url": "/posts/on-writing-less/",
+    "excerpt": "The shortest essays often take the longest to write. A note on restraint, revision, and the quiet power of leaving things out.",
+    "headings": [],
+    "categories": [
+      "Essays"
+    ],
+    "tags": [
+      "Writing",
+      "Craft"
+    ],
+    "published_at_iso": "2026-05-07T09:00:00Z",
+    "updated_at_iso": "2026-05-07T09:00:00Z",
+    "content_text": "The shortest essays often take the longest to write. A note on restraint, revision, and the quiet power of leaving things out. There is a particular kind of pleasure in deleting a sentence you spent an hour writing. It feels wasteful at first — then, almost immediately, like relief. Most of what we write is scaffolding. It exists so the rest of the building can stand. Once the walls hold, the scaffolding has to come down, or the thing you built will never be seen. The hardest paragraphs to cut are the ones that are merely good. Bad writing announces itself; good writing hides. It earns its place by being competent, and competence is enough to survive most edits. But a piece of writing is not the sum of its competent parts. It is the shape they make together. And shape, almost always, comes from absence."
+  },
+  {
+    "id": "post:tools-i-use",
+    "type": "post",
+    "title": "Tools I use",
+    "url": "/posts/tools-i-use/",
+    "excerpt": "After years of trying every new app, I keep coming back to the same handful.",
+    "headings": [],
+    "categories": [
+      "Notes"
+    ],
+    "tags": [
+      "Tools",
+      "Minimalism"
+    ],
+    "published_at_iso": "2026-05-03T09:00:00Z",
+    "updated_at_iso": "2026-05-03T09:00:00Z",
+    "content_text": "After years of trying every new app, I keep coming back to the same handful. The short list, in order of how often I open it: A plain text file for notes. A paper notebook for sketches. A calendar that does not try to become a philosophy. A timer, set for twenty-five minutes at a time. That’s most of it. The longer the list got, the less I trusted it."
+  },
+  {
+    "id": "post:what-a-morning-is-for",
+    "type": "post",
+    "title": "What a morning is for",
+    "url": "/posts/what-a-morning-is-for/",
+    "excerpt": "The first hour of the day is the easiest one to give away, and the hardest one to get back.",
+    "headings": [],
+    "categories": [
+      "Essays"
+    ],
+    "tags": [
+      "Writing",
+      "Slow-living"
+    ],
+    "published_at_iso": "2026-04-28T09:00:00Z",
+    "updated_at_iso": "2026-04-28T09:00:00Z",
+    "content_text": "The first hour of the day is the easiest one to give away, and the hardest one to get back. I used to start the morning with email. Then I started with the news. Then I started with whatever someone, somewhere, had decided was urgent enough to put in front of me. None of it ever felt like a beginning. It felt like a middle — like I had walked into a room where a conversation was already underway, and my job was to catch up. Now I try to start with something quiet. A page of writing. A walk. Coffee, made slowly, in the same cup. The day will get loud on its own; the morning is for everything that won’t survive the noise."
+  },
+  {
+    "id": "page:about",
+    "type": "page",
+    "title": "About",
+    "url": "/about/",
+    "excerpt": "How this example combines a theme and Preview Data into a static site.",
+    "headings": [
+      "From inputs to a website",
+      "Explore the result"
+    ],
+    "categories": [],
+    "tags": [],
+    "published_at_iso": "",
+    "updated_at_iso": "",
+    "content_text": "This site is the output of the ZeroPress Build Example. It uses the Minimal theme, four sample posts, and this About page. From inputs to a website The theme supplies the templates and styles. A Preview Data JSON file contains the content and site settings. The ZeroPress builder combines them into static HTML and assets in the dist/ directory. Explore the result Browse the posts, move between the two pages of the post list, or search for a title such as Typography. The layout and colors adapt to your screen and system preference. For an overview of the builder and ways to publish your own site, visit the ZeroPress documentation."
+  }
+]
