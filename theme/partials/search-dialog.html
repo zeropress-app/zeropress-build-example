@@ -1,0 +1,17 @@
+<dialog id="site-search" class="search-dialog" data-search-dialog aria-labelledby="site-search-title">
+  <div class="search-dialog__header">
+    <h2 id="site-search-title">Search</h2>
+    <button class="search-close" type="button" data-search-close aria-label="Close search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="search-dialog__body">
+    <div role="search">
+      <label class="sr-only" for="site-search-input">Search posts and pages</label>
+      <input id="site-search-input" class="search-input" data-search-input type="search" placeholder="Search posts and pages" autocomplete="off" spellcheck="false" aria-controls="site-search-results" autofocus>
+    </div>
+    <p class="search-status" data-search-status role="status">Type to search.</p>
+    <button class="search-retry" type="button" data-search-retry hidden>Reload page</button>
+    <ul id="site-search-results" class="search-results" data-search-results aria-label="Search results"></ul>
+  </div>
+</dialog>
