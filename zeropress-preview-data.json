@@ -1,0 +1,214 @@
+{
+  "$schema": "https://www.schemastore.org/zeropress-preview-data-0.7.json",
+  "version": "0.7",
+  "generator": "zeropress-create-theme",
+  "generated_at": "2026-07-15T09:00:00Z",
+  "site": {
+    "title": "ZeroPress Build Example",
+    "description": "A small static site built from a theme and Preview Data.",
+    "url": "https://build.demo.zeropress.app",
+    "media_origin": "",
+    "locale": "en-US",
+    "posts_per_page": 3,
+    "date_style": "medium",
+    "time_style": "none",
+    "timezone": "UTC",
+    "robots": {
+      "allow_indexing": false
+    },
+    "footer": {
+      "copyright_text": "ZeroPress Build Example",
+      "attribution": true
+    },
+    "search": {
+      "enabled": true
+    }
+  },
+  "content": {
+    "authors": [
+      {
+        "id": "33333333-3333-4333-8333-333333333333",
+        "display_name": "Editor"
+      }
+    ],
+    "posts": [
+      {
+        "public_id": 3001,
+        "title": "Typography",
+        "slug": "typography",
+        "content": "_A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables._\n\nTypography is the quiet architecture of reading. When it works, you don't notice it — you just keep going. This post exercises every Markdown affordance the minimal theme styles, so you can audit the shape of the page in one place.\n\n## Images and public files\n\nA diagram can explain a process at a glance. This one shows how ZeroPress combines a theme and Preview Data to produce a static site.\n\n<picture>\n  <source media=\"(max-width: 640px)\" srcset=\"/diagrams/build-flow-compact.svg\" width=\"360\" height=\"374\">\n  <img class=\"aligncenter\" src=\"/diagrams/build-flow.svg\" width=\"720\" height=\"224\" alt=\"A ZeroPress theme and Preview Data feed @zeropress/build, which produces static HTML, assets, and public files.\">\n</picture>\n\nThese SVG files live in `public/diagrams/` and are copied to `dist/diagrams/` during the build. The browser uses the compact layout on screens up to 640 pixels wide. Both versions follow the system's light or dark color preference, just like this theme.\n\n## Headings establish hierarchy\n\nA page without hierarchy is a page without a map. Headings tell the eye where to land, and where it can safely skip ahead.\n\n### A smaller heading\n\nThree levels is usually enough. Anything deeper and you're probably writing an outline, not an essay.\n\n#### And a fourth, used sparingly\n\nReserved for the rare moment when you really need a fourth tier of nesting.\n\n## Inline rhythm\n\nInline elements should feel native to the paragraph: a link to [ZeroPress](https://zeropress.dev/), emphasis with *italics*, strong emphasis with **bold text**, inline code like `useState`, a keyboard shortcut like <kbd>⌘</kbd> + <kbd>K</kbd>, and a short correction with ~~deleted text~~.\n\n> Typography is what language looks like.\n>\n> — Ellen Lupton\n\n## Lists\n\nThree things make a list useful:\n\n- Items that are genuinely parallel.\n- Short phrases, not full paragraphs.\n- A reason to be a list at all.\n\nA small checklist renders as disabled task inputs:\n\n- [x] Draft the piece.\n- [x] Revise the rhythm.\n- [ ] Publish when it is ready.\n\nOrdered lists earn their numbers when sequence matters:\n\n1. Write the draft.\n2. Cut a third of it.\n3. Read it out loud.\n4. Cut a third again.\n\n## Tables\n\n| Element | Use |\n| --- | --- |\n| H2 | Major sections |\n| H3 | Supporting sections |\n| Paragraph | Long-form reading |\n| Code | Technical notes |\n\n## Alerts\n\n> [!NOTE]\n> Notes carry neutral context that helps the reader keep moving.\n\n> [!TIP]\n> Tips suggest a practical next step.\n\n> [!IMPORTANT]\n> Important blocks point at details that should not be missed.\n\n> [!WARNING]\n> Warnings call out risk before the reader acts.\n\n> [!CAUTION]\n> Cautions are for the sharp edges of a workflow.\n\n## Code fences\n\nEven a writing-focused blog occasionally needs a snippet:\n\n```ts\nfunction greet(name: string) {\n  return `Hello, ${name}.`;\n}\n\ngreet(\"reader\");\n```\n\n---\n\n## Rhythm is everything\n\nSpacing is typography too. The vertical rhythm between paragraphs, the air around a heading, the pause of a horizontal rule — these are the punctuation of the page. Get those right, and the words almost read themselves.\n",
+        "document_type": "markdown",
+        "excerpt": "A demonstration of every typographic element this template supports — headings, paragraphs, quotes, lists, code, and tables.",
+        "published_at_iso": "2026-05-10T09:00:00Z",
+        "updated_at_iso": "2026-05-10T09:00:00Z",
+        "author_id": "33333333-3333-4333-8333-333333333333",
+        "status": "published",
+        "category_slugs": [
+          "notes"
+        ],
+        "tag_slugs": [
+          "typography",
+          "design"
+        ]
+      },
+      {
+        "public_id": 3002,
+        "title": "On writing less",
+        "slug": "on-writing-less",
+        "content": "_The shortest essays often take the longest to write. A note on restraint, revision, and the quiet power of leaving things out._\n\nThere is a particular kind of pleasure in deleting a sentence you spent an hour writing. It feels wasteful at first — then, almost immediately, like relief.\n\nMost of what we write is scaffolding. It exists so the rest of the building can stand. Once the walls hold, the scaffolding has to come down, or the thing you built will never be seen.\n\nThe hardest paragraphs to cut are the ones that are merely good. Bad writing announces itself; good writing hides. It earns its place by being competent, and competence is enough to survive most edits.\n\nBut a piece of writing is not the sum of its competent parts. It is the shape they make together. And shape, almost always, comes from absence.\n",
+        "document_type": "markdown",
+        "excerpt": "The shortest essays often take the longest to write. A note on restraint, revision, and the quiet power of leaving things out.",
+        "published_at_iso": "2026-05-07T09:00:00Z",
+        "updated_at_iso": "2026-05-07T09:00:00Z",
+        "author_id": "33333333-3333-4333-8333-333333333333",
+        "status": "published",
+        "category_slugs": [
+          "essays"
+        ],
+        "tag_slugs": [
+          "writing",
+          "craft"
+        ]
+      },
+      {
+        "public_id": 3003,
+        "title": "Tools I use",
+        "slug": "tools-i-use",
+        "content": "_After years of trying every new app, I keep coming back to the same handful._\n\nThe short list, in order of how often I open it:\n\n- A plain text file for notes.\n- A paper notebook for sketches.\n- A calendar that does not try to become a philosophy.\n- A timer, set for twenty-five minutes at a time.\n\nThat's most of it. The longer the list got, the less I trusted it.\n",
+        "document_type": "markdown",
+        "excerpt": "After years of trying every new app, I keep coming back to the same handful.",
+        "published_at_iso": "2026-05-03T09:00:00Z",
+        "updated_at_iso": "2026-05-03T09:00:00Z",
+        "author_id": "33333333-3333-4333-8333-333333333333",
+        "status": "published",
+        "category_slugs": [
+          "notes"
+        ],
+        "tag_slugs": [
+          "tools",
+          "minimalism"
+        ]
+      },
+      {
+        "public_id": 3004,
+        "title": "What a morning is for",
+        "slug": "what-a-morning-is-for",
+        "content": "_The first hour of the day is the easiest one to give away, and the hardest one to get back._\n\nI used to start the morning with email. Then I started with the news. Then I started with whatever someone, somewhere, had decided was urgent enough to put in front of me.\n\nNone of it ever felt like a beginning. It felt like a middle — like I had walked into a room where a conversation was already underway, and my job was to catch up.\n\nNow I try to start with something quiet. A page of writing. A walk. Coffee, made slowly, in the same cup. The day will get loud on its own; the morning is for everything that won't survive the noise.\n",
+        "document_type": "markdown",
+        "excerpt": "The first hour of the day is the easiest one to give away, and the hardest one to get back.",
+        "published_at_iso": "2026-04-28T09:00:00Z",
+        "updated_at_iso": "2026-04-28T09:00:00Z",
+        "author_id": "33333333-3333-4333-8333-333333333333",
+        "status": "published",
+        "category_slugs": [
+          "essays"
+        ],
+        "tag_slugs": [
+          "writing",
+          "slow-living"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "About",
+        "slug": "about",
+        "content": "This site is the output of the ZeroPress Build Example. It uses the Minimal theme, four sample posts, and this About page.\n\n## From inputs to a website\n\nThe theme supplies the templates and styles. A Preview Data JSON file contains the content and site settings. The ZeroPress builder combines them into static HTML and assets in the `dist/` directory.\n\n## Explore the result\n\nBrowse the posts, move between the two pages of the post list, or search for a title such as Typography. The layout and colors adapt to your screen and system preference.\n\nFor an overview of the builder and ways to publish your own site, visit the [ZeroPress documentation](https://zeropress.dev/).\n",
+        "document_type": "markdown",
+        "excerpt": "How this example combines a theme and Preview Data into a static site.",
+        "status": "published"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Notes",
+        "slug": "notes",
+        "description": "Short observations."
+      },
+      {
+        "name": "Essays",
+        "slug": "essays",
+        "description": "Longer pieces, revised slowly."
+      }
+    ],
+    "tags": [
+      {
+        "name": "Typography",
+        "slug": "typography",
+        "description": "Posts tagged typography."
+      },
+      {
+        "name": "Design",
+        "slug": "design",
+        "description": "Posts tagged design."
+      },
+      {
+        "name": "Writing",
+        "slug": "writing",
+        "description": "Posts tagged writing."
+      },
+      {
+        "name": "Craft",
+        "slug": "craft",
+        "description": "Posts tagged craft."
+      },
+      {
+        "name": "Tools",
+        "slug": "tools",
+        "description": "Posts tagged tools."
+      },
+      {
+        "name": "Minimalism",
+        "slug": "minimalism",
+        "description": "Posts tagged minimalism."
+      },
+      {
+        "name": "Slow-living",
+        "slug": "slow-living",
+        "description": "Posts tagged slow-living."
+      }
+    ]
+  },
+  "menus": {
+    "footer": {
+      "name": "Footer Menu",
+      "items": [
+        {
+          "title": "About",
+          "url": "/about/",
+          "target": "_self",
+          "children": []
+        },
+        {
+          "title": "Archive",
+          "url": "/archive/",
+          "target": "_self",
+          "children": []
+        }
+      ]
+    },
+    "primary": {
+      "name": "Primary Menu",
+      "items": [
+        {
+          "title": "Posts",
+          "url": "/",
+          "target": "_self",
+          "children": []
+        },
+        {
+          "title": "About",
+          "url": "/about/",
+          "target": "_self",
+          "children": []
+        },
+        {
+          "title": "Archive",
+          "url": "/archive/",
+          "target": "_self",
+          "children": []
+        }
+      ]
+    }
+  }
+}
